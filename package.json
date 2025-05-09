@@ -1,0 +1,16 @@
+{
+    "name": "mini-query",
+    "version": "0.0.1",
+    "description": "",
+    "private": true,
+    "main": "index.js",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm --workspace=@taewon/mini-query run build"
+    },
+    "author": "",
+    "license": "MIT"
+}
